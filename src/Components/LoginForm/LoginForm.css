@@ -1,0 +1,127 @@
+.title {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .inputs_containter {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputs_containter input {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    border-radius: 25px;
+    border: 2px solid rgb(203, 152, 12);
+    border-width: 1.5px;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .login_button {
+    display: block;
+    width: 200px; /* Ajusta este valor según tus necesidades */
+    padding: 0.75rem 1rem;
+    border-radius: 25px;
+    outline: 0;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    background-color: rgb(255, 187, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+  }
+  
+  .login_button:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  .button_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+  
+  .button_wrapper {
+    margin: 0 0.5rem;
+  }
+  
+  .register_button {
+    display: block;
+    width: 200px; /* Ajusta este valor según tus necesidades */
+    padding: 0.75rem 1rem;
+    border-radius: 25px;
+    outline: 0;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    background-color: rgb(255, 187, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+  }
+  
+  .register_button:hover {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  .small {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 0.85rem;
+    text-decoration: underline;
+    margin-bottom: 5rem;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+  
+  .small:hover {
+    background-color: inherit;
+    color: blue;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .icon {
+    color: rgb(255, 187, 0);
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    background-color: rgb(229, 226, 226);
+  }
+  
+  @media only screen and (max-width: 620px) {
+    .inputs_containter input {
+      width: 100%;
+    }
+  
+    .login_button,
+    .register_button {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-height: 670px) {
+    .subtitle {
+      margin-bottom: 2rem;
+    }
+    .small {
+      margin-bottom: 3rem;
+    }
+  }
+  
